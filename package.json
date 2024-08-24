@@ -1,0 +1,11 @@
+{
+  "name": "check-latency",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types --env-file=.env index.ts"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.15.3"
+  }
+}
